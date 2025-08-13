@@ -9,7 +9,7 @@
 
 #### Set Up, Packages & Sourcing ####
 
-source("../MResProjectTwo/01_Models/models_set_up.R")
+source("../FromTrialstoPopulations/01_Models/models_set_up.R")
 
 #### Clinical Trial Model ####
 
@@ -87,3 +87,4 @@ sir_baseline <- run_models(sirs_model,
                            params, 
                            duration_and_runs, 
                            FALSE)  # Toggle: True for stochastic, False for deterministic
+
