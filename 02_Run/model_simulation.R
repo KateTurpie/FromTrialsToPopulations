@@ -9,7 +9,7 @@
 
 #### Set Up, Packages & Sourcing ####
 
-source("../MResProjectTwo/01_Models/models_set_up.R")
+source("../FromTrialsToPopulations/01_Models/models_set_up.R")
 
 #### Clinical Trial Model ####
 
@@ -51,3 +51,4 @@ sir_run <- run_models(sirs_model,
 ## Save Run ##
 
 save_run(sir_run)
+
